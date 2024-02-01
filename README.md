@@ -14,7 +14,7 @@
 
  Lien entre Service et Deploiement est lien entre l'adresse IP fixe du service et l'IP ephemere du pod (l'ip du pod change a chaque redémarrage)
 
-image(./ressources/serviceAndDeployment.jpg)
+![image](./ressources/serviceAndDeployment.jpg)
 
 ## Résumé
 Kubernetes est utilisé par tous les clouds
