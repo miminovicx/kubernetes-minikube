@@ -1,5 +1,37 @@
 # kubernetes-minikube
 
+## Encapsulation
+- Deployment
+      |_ pod : processus kubernetes, adresse IP éphémere (processus linux qui execute le programme)
+          |_ image docker
+              |_ code app
+
+- Service : adresse IP fixe suit les changements d'IP du pod, types :
+   * Load Balancer
+   * défaut (Node Port)
+   * external name -> nom de domaine
+   * cluster IP -> adresse interne au cluster
+
+ Lien entre Service et Deploiement est lien entre l'adresse IP fixe du service et l'IP ephemere du pod (l'ip du pod change a chaque redémarrage)
+
+image(./ressources/serviceAndDeployment.jpg)
+
+## Résumé
+Kubernetes est utilisé par tous les clouds
+
+### Fonctionnalités
+#### Déploiement 
+Déploiement d'applications encapsulées dans des images Docker (càd virtualisation) (sous logiciel utile pour exécuter les images -> cloud native) dans un cluster de machines où est installé kubernetes.
+
+#### Maintient des applications en fonctionnement
+Redémarrage automatique des applications en échec
+
+#### Scalling
+Augmenter ou diminuer le nombre d'instances de la même image Docker. 
+Ses avantages :
+- Tolérance aux pannes
+- load répartition des charges
+
 ## Installation
 - Docker
 - Kubernetes minikube https://minikube.sigs.k8s.io/docs/start/
@@ -105,7 +137,11 @@ Then check in your Web browser:
 http://myservice.info/
 
 
-Delete
+### Delete
+kubectl delete pod pod_id
+
 kubectl delete services myservice
 
 kubectl delete deployment myservice
+
+## 
