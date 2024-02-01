@@ -144,4 +144,5 @@ kubectl delete services myservice
 
 kubectl delete deployment myservice
 
-## 
+## Cluster IP
+![image](./ressources/clusterIP.jpg)
