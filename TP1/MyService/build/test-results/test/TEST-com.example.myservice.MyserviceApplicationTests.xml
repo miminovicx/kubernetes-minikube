@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.myservice.MyserviceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-25T09:04:24" hostname="DESKTOP-69HAIK0" time="0.629">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.myservice.MyserviceApplicationTests" time="0.629"/>
+  <system-out><![CDATA[10:04:22.271 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [MyserviceApplicationTests]: using SpringBootContextLoader
+10:04:22.278 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.myservice.MyserviceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:04:22.280 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.myservice.MyserviceApplicationTests]: MyserviceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:04:22.312 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [MyserviceApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+10:04:22.417 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Admin\Desktop\kubernetes-minikube-main\kubernetes-minikube-main\MyService\build\classes\java\main\com\example\myservice\MyServiceApplication.class]
+10:04:22.442 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.myservice.MyServiceApplication for test class com.example.myservice.MyserviceApplicationTests
+10:04:22.627 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+10:04:22.631 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+10:04:22.635 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [MyserviceApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+10:04:22.637 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [MyserviceApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.0)
+
+2024-01-25T10:04:23.078+01:00  INFO 23864 --- [    Test worker] c.e.myservice.MyserviceApplicationTests  : Starting MyserviceApplicationTests using Java 17.0.10 with PID 23864 (started by Admin in C:\Users\Admin\Desktop\kubernetes-minikube-main\kubernetes-minikube-main\MyService)
+2024-01-25T10:04:23.079+01:00  INFO 23864 --- [    Test worker] c.e.myservice.MyserviceApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-01-25T10:04:24.812+01:00  INFO 23864 --- [    Test worker] c.e.myservice.MyserviceApplicationTests  : Started MyserviceApplicationTests in 2.084 seconds (process running for 3.78)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

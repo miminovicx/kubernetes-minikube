@@ -1,8 +1,5 @@
 # kubernetes-minikube
 
-## AA
-aa
-
 ## Encapsulation
 - Deployment
       |_ pod : processus kubernetes, adresse IP éphémere (processus linux qui execute le programme)
