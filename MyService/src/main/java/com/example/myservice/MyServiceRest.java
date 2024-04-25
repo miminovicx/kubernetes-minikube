@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyServiceRest {
 
     @GetMapping("/")
-    public String sayHello(){
-        return "Hello";
+    public String sayMyName(){
+        return "My name is AZZOUZ-HAMMOUCHE";
     }
 
 }
